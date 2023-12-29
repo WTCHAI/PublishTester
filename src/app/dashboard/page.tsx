@@ -6,9 +6,8 @@ type Props = {}
 export default function page({}: Props) {
   
   return (
-    <div className='flex flex-col'>
-      <p>test dash</p>
-      <DashboardContainer/>
+    <div className='flex flex-col h-full w-full'>
+      <DashboardContainer />
     </div>
   )
 }
